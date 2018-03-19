@@ -6,7 +6,7 @@
         <artifactId>bio4j-ng-server</artifactId>
         <version>1.0</version>
     </parent>
-    <artifactId>as-distribution</artifactId>
+    <artifactId>bio4j-distribution</artifactId>
     <packaging>pom</packaging>
     <properties>
         <distribution.ext>zip</distribution.ext>
@@ -26,9 +26,6 @@
         <felix.gogo.command.version>0.16.0</felix.gogo.command.version>
         <felix.fileinstall.version>3.5.4</felix.fileinstall.version>
         <ipojo.webconsole.verion>1.7.0</ipojo.webconsole.verion>
-
-        <!--<jetty-osgi-servlet-api.version>3.1.0.M3</jetty-osgi-servlet-api.version>-->
-
         <org.osgi.enterprise.version>5.0.0</org.osgi.enterprise.version>
 
     </properties>
