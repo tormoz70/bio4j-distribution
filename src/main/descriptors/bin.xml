@@ -31,17 +31,17 @@
             <outputDirectory>/</outputDirectory>
         </fileSet>
 
-        <fileSet>
-            <directory>src/main/distribution</directory>
-            <excludes>
-                <exclude>**/conf/*</exclude>
-            </excludes>
-            <outputDirectory>/</outputDirectory>
-            <fileMode>0644</fileMode>
-        </fileSet>
+        <!--<fileSet>-->
+            <!--<directory>src/main/distribution</directory>-->
+            <!--<excludes>-->
+                <!--<exclude>**/conf/*</exclude>-->
+            <!--</excludes>-->
+            <!--<outputDirectory>/</outputDirectory>-->
+            <!--<fileMode>0644</fileMode>-->
+        <!--</fileSet>-->
         <fileSet>
             <directory>target/classes</directory>
-            <outputDirectory>/conf</outputDirectory>
+            <outputDirectory>/</outputDirectory>
             <!--<lineEnding>unix</lineEnding>-->
             <fileMode>0644</fileMode>
         </fileSet>
