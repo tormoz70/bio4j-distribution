@@ -867,22 +867,22 @@
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-ehcache</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-content-resolver</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
+                                <!--<artifactItem>-->
+                                    <!--<groupId>ru.bio4j.ng</groupId>-->
+                                    <!--<artifactId>bio4j-ng-ehcache</artifactId>-->
+                                    <!--<version>${bio4j-ng.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</artifactItem>-->
+                                <!--<artifactItem>-->
+                                    <!--<groupId>ru.bio4j.ng</groupId>-->
+                                    <!--<artifactId>bio4j-ng-content-resolver</artifactId>-->
+                                    <!--<version>${bio4j-ng.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</artifactItem>-->
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
                                     <artifactId>bio4j-ng-crudhandler</artifactId>
