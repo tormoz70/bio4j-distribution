@@ -740,6 +740,15 @@
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
 
+                                <artifactItem>
+                                    <groupId>com.h2database</groupId>
+                                    <artifactId>h2</artifactId>
+                                    <version>1.4.197</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+
                                 <!-- ********************************************************************************************************** -->
                                 <!-- Bio4j -->
 
@@ -927,6 +936,14 @@
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
                                     <artifactId>bio4j-ng-fcloud-provider</artifactId>
+                                    <version>${bio4j-ng.version}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>ru.bio4j.ng</groupId>
+                                    <artifactId>bio4j-ng-fcloud-registry</artifactId>
                                     <version>${bio4j-ng.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
