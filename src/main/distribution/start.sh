@@ -1,6 +1,6 @@
 #!/bin/sh
 
-JAVA_HOME=../java/jdk1.8.0_131
+JAVA_HOME=../java/${jdk.version}
 
 $JAVA_HOME/bin/java \
     -server \
