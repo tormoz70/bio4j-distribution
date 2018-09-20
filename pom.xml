@@ -477,6 +477,23 @@
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
+                                <dependency>
+                                    <groupId>org.glassfish.jersey.media</groupId>
+                                    <artifactId>jersey-media-multipart</artifactId>
+                                    <version>${org.glassfish.jersey.core.version}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </dependency>
+                                <dependency>
+                                    <groupId>org.jvnet.mimepull</groupId>
+                                    <artifactId>mimepull</artifactId>
+                                    <version>${org.jvnet.mimepull.version}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </dependency>
+
                                 <!--<artifactItem>-->
                                 <!--<groupId>org.glassfish.jersey.media</groupId>-->
                                 <!--<artifactId>jersey-media-moxy</artifactId>-->
