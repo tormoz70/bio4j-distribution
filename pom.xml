@@ -917,14 +917,14 @@
                                     <!--<overWrite>true</overWrite>-->
                                     <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
                                 <!--</artifactItem>-->
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-crudhandler</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
+                                <!--<artifactItem>-->
+                                    <!--<groupId>ru.bio4j.ng</groupId>-->
+                                    <!--<artifactId>bio4j-ng-crudhandler</artifactId>-->
+                                    <!--<version>${bio4j-ng.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</artifactItem>-->
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
                                     <artifactId>bio4j-ng-security-provider</artifactId>
@@ -933,22 +933,22 @@
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-router</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-rapi-wab</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>war</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.webapps}</outputDirectory>
-                                </artifactItem>
+                                <!--<artifactItem>-->
+                                    <!--<groupId>ru.bio4j.ng</groupId>-->
+                                    <!--<artifactId>bio4j-ng-router</artifactId>-->
+                                    <!--<version>${bio4j-ng.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</artifactItem>-->
+                                <!--<artifactItem>-->
+                                    <!--<groupId>ru.bio4j.ng</groupId>-->
+                                    <!--<artifactId>bio4j-ng-rapi-wab</artifactId>-->
+                                    <!--<version>${bio4j-ng.version}</version>-->
+                                    <!--<type>war</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.webapps}</outputDirectory>-->
+                                <!--</artifactItem>-->
 
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
