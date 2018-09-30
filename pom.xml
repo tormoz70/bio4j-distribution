@@ -464,7 +464,7 @@
                                 <artifactItem>
                                     <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
                                     <artifactId>jersey-guava</artifactId>
-                                    <version>${org.glassfish.jersey.core.version}</version>
+                                    <version>${jersey-guava.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
@@ -493,6 +493,24 @@
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </dependency>
+
+                                <!--<dependency>-->
+                                    <!--<groupId>org.glassfish.jersey.media</groupId>-->
+                                    <!--<artifactId>jersey-media-multipart</artifactId>-->
+                                    <!--<version>${org.glassfish.jersey.core.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</dependency>-->
+
+                                <!--<dependency>-->
+                                    <!--<groupId>org.glassfish.jersey.core</groupId>-->
+                                    <!--<artifactId>jersey-client</artifactId>-->
+                                    <!--<version>${org.glassfish.jersey.core.version}</version>-->
+                                    <!--<type>jar</type>-->
+                                    <!--<overWrite>true</overWrite>-->
+                                    <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
+                                <!--</dependency>-->
 
                                 <!--<artifactItem>-->
                                 <!--<groupId>org.glassfish.jersey.media</groupId>-->
