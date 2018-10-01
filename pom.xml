@@ -27,6 +27,7 @@
         <felix.fileinstall.version>3.5.4</felix.fileinstall.version>
         <ipojo.webconsole.verion>1.7.0</ipojo.webconsole.verion>
         <org.osgi.enterprise.version>5.0.0</org.osgi.enterprise.version>
+        <jersey-guava.version>2.23</jersey-guava.version>
 
     </properties>
 
