@@ -7,6 +7,7 @@
         <version>2.0</version>
     </parent>
     <artifactId>bio4j-distribution</artifactId>
+    <version>1.5.0</version>
     <packaging>pom</packaging>
     <properties>
         <distribution.ext>zip</distribution.ext>
