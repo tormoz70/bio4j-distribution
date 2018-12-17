@@ -933,57 +933,12 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-sql-context</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-security-provider</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-module-provider</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-fcloud-provider</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
                                     <artifactId>bio4j-ng-fcloud-h2registry</artifactId>
                                     <version>${bio4j-ng.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
-
-                                <!--Стандартный модуль-->
-                                <!--
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-security-module-x</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                -->
 
                             </artifactItems>
                         </configuration>
