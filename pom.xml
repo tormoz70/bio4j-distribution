@@ -69,7 +69,7 @@
 
                                 <artifactItem>
                                     <groupId>org.apache.felix</groupId>
-                                    <artifactId>eventadmin</artifactId>
+                                    <artifactId>org.apache.felix.eventadmin</artifactId>
                                     <version>${felix.eventadmin}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
