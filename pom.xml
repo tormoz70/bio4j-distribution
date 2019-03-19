@@ -30,6 +30,7 @@
         <org.osgi.enterprise.version>5.0.0</org.osgi.enterprise.version>
         <jersey-guava.version>2.23</jersey-guava.version>
 
+        <org.quartz-scheduler.version>2.3.0</org.quartz-scheduler.version>
 
         <org.glassfish.hk2.osgi.version>1.0.3</org.glassfish.hk2.osgi.version>
         <org.glassfish.hk2.version>2.5.0</org.glassfish.hk2.version>
@@ -41,6 +42,7 @@
         <org.ow2.asm.version>5.1</org.ow2.asm.version>
         <javax.validation.version>2.0.1.Final</javax.validation.version>
         <javax.mail.version>1.5.0-b01</javax.mail.version>
+        <com.zaxxer.HikariCP.version>2.7.9</com.zaxxer.HikariCP.version>
     </properties>
 
     <build>
@@ -761,7 +763,7 @@
                                 <artifactItem>
                                     <groupId>com.zaxxer</groupId>
                                     <artifactId>HikariCP</artifactId>
-                                    <version>2.7.9</version>
+                                    <version>${com.zaxxer.HikariCP.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
