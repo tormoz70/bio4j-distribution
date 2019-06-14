@@ -745,6 +745,17 @@
                                 </artifactItem>
 
 
+                                <!--email-->
+                                <artifactItem>
+                                    <groupId>com.sun.mail</groupId>
+                                    <artifactId>javax.mail</artifactId>
+                                    <version>${javax.mail.version}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+
+
                                 <!-- https://mvnrepository.com/artifact/com.google.code.scriptengines/scriptengines-javascript -->
                                 <!--<artifactItem>-->
                                     <!--<groupId>com.google.code.scriptengines</groupId>-->
