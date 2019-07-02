@@ -796,14 +796,14 @@
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
 
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>jetty-osgi-boot</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
+<!--                                <artifactItem>-->
+<!--                                    <groupId>ru.bio4j.ng</groupId>-->
+<!--                                    <artifactId>jetty-osgi-boot</artifactId>-->
+<!--                                    <version>${bio4j-ng.version}</version>-->
+<!--                                    <type>jar</type>-->
+<!--                                    <overWrite>true</overWrite>-->
+<!--                                    <outputDirectory>${distr.bundles}</outputDirectory>-->
+<!--                                </artifactItem>-->
 
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
