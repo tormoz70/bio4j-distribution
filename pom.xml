@@ -766,6 +766,24 @@
                                     <!--<outputDirectory>${distr.bundles}</outputDirectory>-->
                                 <!--</artifactItem>-->
 
+                                <artifactItem>
+                                    <groupId>com.rabbitmq</groupId>
+                                    <artifactId>amqp-client</artifactId>
+                                    <version>${amqp-client.verion}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+
+                                <artifactItem>
+                                    <groupId>com.rabbitmq</groupId>
+                                    <artifactId>rabbitmq-client</artifactId>
+                                    <version>${rabbitmq-client.verion}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+
                                 <!-- ********************************************************************************************************** -->
                                 <!-- Bio4j -->
 
