@@ -755,8 +755,6 @@
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
 
-
-                                <!-- https://mvnrepository.com/artifact/com.google.code.scriptengines/scriptengines-javascript -->
                                 <!--<artifactItem>-->
                                     <!--<groupId>com.google.code.scriptengines</groupId>-->
                                     <!--<artifactId>scriptengines-javascript</artifactId>-->
