@@ -700,9 +700,18 @@
                                 </artifactItem>
 
                                 <artifactItem>
+                                    <groupId>org.quartz-scheduler</groupId>
+                                    <artifactId>quartz-jobs</artifactId>
+                                    <version>${org.quartz-scheduler.version}</version>
+                                    <type>jar</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${distr.bundles}</outputDirectory>
+                                </artifactItem>
+
+                                <artifactItem>
                                     <groupId>com.zaxxer</groupId>
                                     <artifactId>HikariCP</artifactId>
-                                    <version>2.7.9</version>
+                                    <version>${hikaricp.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
