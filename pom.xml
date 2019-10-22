@@ -785,9 +785,18 @@
                                 <!-- ********************************************************************************************************** -->
                                 <!-- Bio4j -->
 
+<!--                                <artifactItem>-->
+<!--                                    <groupId>ru.bio4j.ng</groupId>-->
+<!--                                    <artifactId>bio4j-jdbc-osgi</artifactId>-->
+<!--                                    <version>${bio4j-ng.version}</version>-->
+<!--                                    <type>jar</type>-->
+<!--                                    <overWrite>true</overWrite>-->
+<!--                                    <outputDirectory>${distr.bundles}</outputDirectory>-->
+<!--                                </artifactItem>-->
+
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-jdbc-osgi</artifactId>
+                                    <artifactId>bio4j-ng-ext-libs</artifactId>
                                     <version>${bio4j-ng.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
@@ -796,16 +805,7 @@
 
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>ext-libs</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>XStreamExts</artifactId>
+                                    <artifactId>bio4j-ng-XStreamExts</artifactId>
                                     <version>${bio4j-ng.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
@@ -831,7 +831,7 @@
 <!--                                </artifactItem>-->
 <!--                                <artifactItem>-->
 <!--                                    <groupId>ru.bio4j.ng</groupId>-->
-<!--                                    <artifactId>marc4j</artifactId>-->
+<!--                                    <artifactId>bio4j-ng-marc4j</artifactId>-->
 <!--                                    <version>${bio4j-ng.version}</version>-->
 <!--                                    <type>jar</type>-->
 <!--                                    <overWrite>true</overWrite>-->
@@ -886,22 +886,22 @@
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${distr.bundles}</outputDirectory>
                                 </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-dba-oracle</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>ru.bio4j.ng</groupId>
-                                    <artifactId>bio4j-ng-dba-pgsql</artifactId>
-                                    <version>${bio4j-ng.version}</version>
-                                    <type>jar</type>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${distr.bundles}</outputDirectory>
-                                </artifactItem>
+<!--                                <artifactItem>-->
+<!--                                    <groupId>ru.bio4j.ng</groupId>-->
+<!--                                    <artifactId>bio4j-ng-dba-oracle</artifactId>-->
+<!--                                    <version>${bio4j-ng.version}</version>-->
+<!--                                    <type>jar</type>-->
+<!--                                    <overWrite>true</overWrite>-->
+<!--                                    <outputDirectory>${distr.bundles}</outputDirectory>-->
+<!--                                </artifactItem>-->
+<!--                                <artifactItem>-->
+<!--                                    <groupId>ru.bio4j.ng</groupId>-->
+<!--                                    <artifactId>bio4j-ng-dba-pgsql</artifactId>-->
+<!--                                    <version>${bio4j-ng.version}</version>-->
+<!--                                    <type>jar</type>-->
+<!--                                    <overWrite>true</overWrite>-->
+<!--                                    <outputDirectory>${distr.bundles}</outputDirectory>-->
+<!--                                </artifactItem>-->
                                 <artifactItem>
                                     <groupId>ru.bio4j.ng</groupId>
                                     <artifactId>bio4j-ng-config</artifactId>
